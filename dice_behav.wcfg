@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dice_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dice" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,994 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,016 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,012 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="135"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/dice/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/rb" type="logic">
+      <obj_property name="ElementShortName">rb</obj_property>
+      <obj_property name="ObjectShortName">rb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/sum" type="array">
+      <obj_property name="ElementShortName">sum[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/roll" type="logic">
+      <obj_property name="ElementShortName">roll</obj_property>
+      <obj_property name="ObjectShortName">roll</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/win" type="logic">
+      <obj_property name="ElementShortName">win</obj_property>
+      <obj_property name="ObjectShortName">win</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/lose" type="logic">
+      <obj_property name="ElementShortName">lose</obj_property>
+      <obj_property name="ObjectShortName">lose</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/ps" type="array">
+      <obj_property name="ElementShortName">ps[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ps[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/ns" type="array">
+      <obj_property name="ElementShortName">ns[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ns[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/s0" type="array">
+      <obj_property name="ElementShortName">s0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/s1" type="array">
+      <obj_property name="ElementShortName">s1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/s2" type="array">
+      <obj_property name="ElementShortName">s2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/s3" type="array">
+      <obj_property name="ElementShortName">s3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/s4" type="array">
+      <obj_property name="ElementShortName">s4[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s4[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dice/s5" type="array">
+      <obj_property name="ElementShortName">s5[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s5[2:0]</obj_property>
+   </wvobject>
+</wave_config>
